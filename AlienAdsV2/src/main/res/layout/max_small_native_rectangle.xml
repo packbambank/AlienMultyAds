@@ -117,6 +117,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="5dp"
                     android:background="@drawable/round_black"
+                    android:fontFamily="@font/evogria"
                     android:textColor="@color/gnt_white"
                     android:textSize="8sp"
                     tools:text="Install" />
