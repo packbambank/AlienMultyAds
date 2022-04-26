@@ -43,8 +43,8 @@
             android:orientation="horizontal">
 
             <RelativeLayout
-                android:layout_width="50dp"
-                android:layout_height="50dp">
+                android:layout_width="55dp"
+                android:layout_height="55dp">
 
                 <ImageView
                     android:id="@+id/icon_image_view"
@@ -75,7 +75,7 @@
                         android:id="@+id/textView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/round_black"
+                        android:background="@color/colorPrimary"
                         android:gravity="center"
                         android:padding="2dp"
                         android:text="Ad"
@@ -89,6 +89,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:gravity="center"
+                        android:lines="2"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title"
                         android:textColor="@color/native_title"
                         android:textSize="14sp"
@@ -125,12 +126,12 @@
         <FrameLayout
             android:id="@+id/media_view_container"
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="4dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
-            android:maxHeight="110dp"
+            android:maxHeight="100dp"
             android:visibility="visible"
             app:layout_constraintDimensionRatio="W,16:9"
             app:layout_constraintEnd_toEndOf="parent"
